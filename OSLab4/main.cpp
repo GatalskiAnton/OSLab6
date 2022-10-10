@@ -88,7 +88,7 @@ void test(std::vector< std::vector<int>>& m1, std::vector< std::vector<int>>& m2
 
 int main()
 {
-	int matrixSize = 150;
+	int matrixSize = 300;
 	std::vector< std::vector<int>> m1(matrixSize);
 	std::vector< std::vector<int>> m2(matrixSize);
 	std::vector< std::vector<int>> m3(matrixSize,std::vector<int>(matrixSize));
