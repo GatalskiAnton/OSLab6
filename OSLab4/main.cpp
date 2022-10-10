@@ -4,6 +4,9 @@
 #include <sstream>
 #include <thread>
 
+std::vector<double> threadResults;
+std::vector<double> seqResults;
+
 void blocksMul(const std::vector <std::vector <int>>&m1, const std::vector <std::vector <int>>&m2, std::vector < std::vector <int>>&resM, int blockI, int blockJ, int matrixSize, int blockSize)
 {
 	for (int i = blockI; i < std::min(blockI + blockSize,matrixSize); ++i)
@@ -48,16 +51,48 @@ void getMatrix(std::vector< std::vector<int>> &m1, std::string file)
 	}
 }
 
+void test(std::vector< std::vector<int>>& m1, std::vector< std::vector<int>>& m2, std::vector< std::vector<int>>& m3, int matrixSize)
+{
+	std::ofstream out("output.txt");
+	auto startTimeThread =  std::chrono::high_resolution_clock::now();
+	for (int i = 1; i < matrixSize; ++i)
+	{
+		threadMul(m1, m2, m3, matrixSize, i);
+		auto tempTime = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> tempDuration = tempTime - startTimeThread;
+		threadResults.push_back(tempDuration.count());
+	}
+	auto endTimeThread = std::chrono::high_resolution_clock::now();
+	std::chrono::duration<double> durationThread = endTimeThread - startTimeThread;
+	std::cout << durationThread.count() << '\n';
+
+	auto startTimeSeq = std::chrono::high_resolution_clock::now();
+	for (int  i = 1; i < matrixSize; ++i)
+	{
+		defaultMul(m1, m2, m3, matrixSize, i);
+		auto tempTime = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> tempDuration = tempTime - startTimeSeq;
+		seqResults.push_back(tempDuration.count());
+	}
+	auto endTimeSeq = std::chrono::high_resolution_clock::now();
+	std::chrono::duration<double> durationSeq = endTimeSeq - startTimeSeq;
+	std::cout << durationSeq.count() << '\n';
+	out << "------------------------------------\n";
+	for (int i = 0; i < threadResults.size(); ++i)
+	{
+		out << "| Block size " << i+1 << " ,difference " << seqResults[i] / threadResults[i]  << '\n';
+		out << "------------------------------------\n";
+	}
+
+}
+
 int main()
 {
-	int matrixSize = 30;
+	int matrixSize = 150;
 	std::vector< std::vector<int>> m1(matrixSize);
 	std::vector< std::vector<int>> m2(matrixSize);
 	std::vector< std::vector<int>> m3(matrixSize,std::vector<int>(matrixSize));
 	getMatrix(m1, "matrix1.txt");
 	getMatrix(m2, "matrix2.txt");
-	for (int i = 1; i < matrixSize; i++)
-	{
-		threadMul(m1, m2, m3, matrixSize, i);
-	}
+	test(m1, m2, m3, matrixSize);
 }
