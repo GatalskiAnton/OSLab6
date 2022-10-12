@@ -80,9 +80,10 @@ void test(std::vector< std::vector<int>>& m1, std::vector< std::vector<int>>& m2
 	out << "------------------------------------\n";
 	for (int i = 0; i < threadResults.size(); ++i)
 	{
-		out << "| Block size " << i+1 << " ,difference " << seqResults[i] / threadResults[i]  << '\n';
+		out << "| Block size " << i+1 << ", difference " << seqResults[i] / threadResults[i]  << '\n';
 		out << "------------------------------------\n";
 	}
+	out << "final difference " << durationSeq.count() /  durationThread.count() << '\n';
 
 }
 
