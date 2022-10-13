@@ -37,8 +37,9 @@ void threadMul(const std::vector <std::vector <int>>& m1, const std::vector <std
 			threads.emplace_back(blocksMul, std::cref(m1), std::cref(m2), std::ref(resM), blockI, blockJ, matrixSize, blockSize);
 			g_lock.unlock();
 		}
-		for (auto& thrd: threads)
-			thrd.join();
+
+	for (auto& thrd: threads)
+		thrd.join();
 }
 
 void getMatrix(std::vector< std::vector<int>> &m1, std::string file)
