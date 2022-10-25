@@ -1,600 +1,200 @@
 ------------------------------------
-| Block size 1, difference 0.203395
+| Block size 1, difference 0.0567486
 ------------------------------------
-| Block size 2, difference 0.321465
+| Block size 2, difference 0.0876131
 ------------------------------------
-| Block size 3, difference 0.434067
+| Block size 3, difference 0.117145
 ------------------------------------
-| Block size 4, difference 0.542061
+| Block size 4, difference 0.150211
 ------------------------------------
-| Block size 5, difference 0.641646
+| Block size 5, difference 0.183848
 ------------------------------------
-| Block size 6, difference 0.734433
+| Block size 6, difference 0.218188
 ------------------------------------
-| Block size 7, difference 0.820824
+| Block size 7, difference 0.251938
 ------------------------------------
-| Block size 8, difference 0.90088
+| Block size 8, difference 0.286371
 ------------------------------------
-| Block size 9, difference 0.976045
+| Block size 9, difference 0.317697
 ------------------------------------
-| Block size 10, difference 1.04941
+| Block size 10, difference 0.347276
 ------------------------------------
-| Block size 11, difference 1.11811
+| Block size 11, difference 0.377845
 ------------------------------------
-| Block size 12, difference 1.1841
+| Block size 12, difference 0.407119
 ------------------------------------
-| Block size 13, difference 1.24527
+| Block size 13, difference 0.438779
 ------------------------------------
-| Block size 14, difference 1.30342
+| Block size 14, difference 0.470069
 ------------------------------------
-| Block size 15, difference 1.35778
+| Block size 15, difference 0.498275
 ------------------------------------
-| Block size 16, difference 1.40999
+| Block size 16, difference 0.525695
 ------------------------------------
-| Block size 17, difference 1.45941
+| Block size 17, difference 0.553947
 ------------------------------------
-| Block size 18, difference 1.50573
+| Block size 18, difference 0.580485
 ------------------------------------
-| Block size 19, difference 1.55075
+| Block size 19, difference 0.605181
 ------------------------------------
-| Block size 20, difference 1.5948
+| Block size 20, difference 0.62959
 ------------------------------------
-| Block size 21, difference 1.63634
+| Block size 21, difference 0.655421
 ------------------------------------
-| Block size 22, difference 1.67699
+| Block size 22, difference 0.679415
 ------------------------------------
-| Block size 23, difference 1.71508
+| Block size 23, difference 0.703509
 ------------------------------------
-| Block size 24, difference 1.7535
+| Block size 24, difference 0.729984
 ------------------------------------
-| Block size 25, difference 1.78926
+| Block size 25, difference 0.755271
 ------------------------------------
-| Block size 26, difference 1.82007
+| Block size 26, difference 0.779903
 ------------------------------------
-| Block size 27, difference 1.85002
+| Block size 27, difference 0.803851
 ------------------------------------
-| Block size 28, difference 1.87938
+| Block size 28, difference 0.828025
 ------------------------------------
-| Block size 29, difference 1.9062
+| Block size 29, difference 0.850354
 ------------------------------------
-| Block size 30, difference 1.93329
+| Block size 30, difference 0.872335
 ------------------------------------
-| Block size 31, difference 1.96063
+| Block size 31, difference 0.895664
 ------------------------------------
-| Block size 32, difference 1.98799
+| Block size 32, difference 0.916246
 ------------------------------------
-| Block size 33, difference 2.01402
+| Block size 33, difference 0.938974
 ------------------------------------
-| Block size 34, difference 2.03856
+| Block size 34, difference 0.95815
 ------------------------------------
-| Block size 35, difference 2.06234
+| Block size 35, difference 0.9783
 ------------------------------------
-| Block size 36, difference 2.08488
+| Block size 36, difference 0.998971
 ------------------------------------
-| Block size 37, difference 2.10574
+| Block size 37, difference 1.02058
 ------------------------------------
-| Block size 38, difference 2.12583
+| Block size 38, difference 1.04115
 ------------------------------------
-| Block size 39, difference 2.14592
+| Block size 39, difference 1.06014
 ------------------------------------
-| Block size 40, difference 2.16524
+| Block size 40, difference 1.08073
 ------------------------------------
-| Block size 41, difference 2.18406
+| Block size 41, difference 1.09922
 ------------------------------------
-| Block size 42, difference 2.20485
+| Block size 42, difference 1.11397
 ------------------------------------
-| Block size 43, difference 2.22238
+| Block size 43, difference 1.13257
 ------------------------------------
-| Block size 44, difference 2.23977
+| Block size 44, difference 1.14952
 ------------------------------------
-| Block size 45, difference 2.25667
+| Block size 45, difference 1.16634
 ------------------------------------
-| Block size 46, difference 2.27398
+| Block size 46, difference 1.18416
 ------------------------------------
-| Block size 47, difference 2.29035
+| Block size 47, difference 1.20085
 ------------------------------------
-| Block size 48, difference 2.30661
+| Block size 48, difference 1.21684
 ------------------------------------
-| Block size 49, difference 2.32131
+| Block size 49, difference 1.23131
 ------------------------------------
-| Block size 50, difference 2.33615
+| Block size 50, difference 1.24575
 ------------------------------------
-| Block size 51, difference 2.35127
+| Block size 51, difference 1.25938
 ------------------------------------
-| Block size 52, difference 2.36581
+| Block size 52, difference 1.27553
 ------------------------------------
-| Block size 53, difference 2.38048
+| Block size 53, difference 1.28851
 ------------------------------------
-| Block size 54, difference 2.39427
+| Block size 54, difference 1.30097
 ------------------------------------
-| Block size 55, difference 2.40742
+| Block size 55, difference 1.31523
 ------------------------------------
-| Block size 56, difference 2.42072
+| Block size 56, difference 1.33055
 ------------------------------------
-| Block size 57, difference 2.43312
+| Block size 57, difference 1.34334
 ------------------------------------
-| Block size 58, difference 2.44536
+| Block size 58, difference 1.353
 ------------------------------------
-| Block size 59, difference 2.45688
+| Block size 59, difference 1.36434
 ------------------------------------
-| Block size 60, difference 2.46677
+| Block size 60, difference 1.37855
 ------------------------------------
-| Block size 61, difference 2.47795
+| Block size 61, difference 1.3891
 ------------------------------------
-| Block size 62, difference 2.48866
+| Block size 62, difference 1.39675
 ------------------------------------
-| Block size 63, difference 2.5002
+| Block size 63, difference 1.40696
 ------------------------------------
-| Block size 64, difference 2.51139
+| Block size 64, difference 1.41624
 ------------------------------------
-| Block size 65, difference 2.51992
+| Block size 65, difference 1.42463
 ------------------------------------
-| Block size 66, difference 2.52502
+| Block size 66, difference 1.43444
 ------------------------------------
-| Block size 67, difference 2.5271
+| Block size 67, difference 1.44027
 ------------------------------------
-| Block size 68, difference 2.52855
+| Block size 68, difference 1.44518
 ------------------------------------
-| Block size 69, difference 2.52746
+| Block size 69, difference 1.45031
 ------------------------------------
-| Block size 70, difference 2.52554
+| Block size 70, difference 1.45483
 ------------------------------------
-| Block size 71, difference 2.52292
+| Block size 71, difference 1.46038
 ------------------------------------
-| Block size 72, difference 2.52179
+| Block size 72, difference 1.46515
 ------------------------------------
-| Block size 73, difference 2.51923
+| Block size 73, difference 1.46661
 ------------------------------------
-| Block size 74, difference 2.51669
+| Block size 74, difference 1.47246
 ------------------------------------
-| Block size 75, difference 2.51618
+| Block size 75, difference 1.47503
 ------------------------------------
-| Block size 76, difference 2.51519
+| Block size 76, difference 1.47859
 ------------------------------------
-| Block size 77, difference 2.51416
+| Block size 77, difference 1.47869
 ------------------------------------
-| Block size 78, difference 2.51439
+| Block size 78, difference 1.48026
 ------------------------------------
-| Block size 79, difference 2.51351
+| Block size 79, difference 1.48336
 ------------------------------------
-| Block size 80, difference 2.51378
+| Block size 80, difference 1.48226
 ------------------------------------
-| Block size 81, difference 2.51386
+| Block size 81, difference 1.48459
 ------------------------------------
-| Block size 82, difference 2.51232
+| Block size 82, difference 1.48434
 ------------------------------------
-| Block size 83, difference 2.51197
+| Block size 83, difference 1.48261
 ------------------------------------
-| Block size 84, difference 2.5113
+| Block size 84, difference 1.48018
 ------------------------------------
-| Block size 85, difference 2.51108
+| Block size 85, difference 1.48012
 ------------------------------------
-| Block size 86, difference 2.51135
+| Block size 86, difference 1.47979
 ------------------------------------
-| Block size 87, difference 2.51216
+| Block size 87, difference 1.47729
 ------------------------------------
-| Block size 88, difference 2.51096
+| Block size 88, difference 1.47452
 ------------------------------------
-| Block size 89, difference 2.51066
+| Block size 89, difference 1.47093
 ------------------------------------
-| Block size 90, difference 2.51116
+| Block size 90, difference 1.46609
 ------------------------------------
-| Block size 91, difference 2.51247
+| Block size 91, difference 1.46387
 ------------------------------------
-| Block size 92, difference 2.51342
+| Block size 92, difference 1.46247
 ------------------------------------
-| Block size 93, difference 2.51374
+| Block size 93, difference 1.45998
 ------------------------------------
-| Block size 94, difference 2.51344
+| Block size 94, difference 1.45733
 ------------------------------------
-| Block size 95, difference 2.51359
+| Block size 95, difference 1.4545
 ------------------------------------
-| Block size 96, difference 2.51345
+| Block size 96, difference 1.45022
 ------------------------------------
-| Block size 97, difference 2.51366
+| Block size 97, difference 1.44468
 ------------------------------------
-| Block size 98, difference 2.51411
+| Block size 98, difference 1.43873
 ------------------------------------
-| Block size 99, difference 2.51316
+| Block size 99, difference 1.43053
 ------------------------------------
-| Block size 100, difference 2.51176
-------------------------------------
-| Block size 101, difference 2.51176
-------------------------------------
-| Block size 102, difference 2.51223
-------------------------------------
-| Block size 103, difference 2.51235
-------------------------------------
-| Block size 104, difference 2.51308
-------------------------------------
-| Block size 105, difference 2.51171
-------------------------------------
-| Block size 106, difference 2.50912
-------------------------------------
-| Block size 107, difference 2.50581
-------------------------------------
-| Block size 108, difference 2.50334
-------------------------------------
-| Block size 109, difference 2.50159
-------------------------------------
-| Block size 110, difference 2.50065
-------------------------------------
-| Block size 111, difference 2.50089
-------------------------------------
-| Block size 112, difference 2.50192
-------------------------------------
-| Block size 113, difference 2.5008
-------------------------------------
-| Block size 114, difference 2.50077
-------------------------------------
-| Block size 115, difference 2.4982
-------------------------------------
-| Block size 116, difference 2.49787
-------------------------------------
-| Block size 117, difference 2.49881
-------------------------------------
-| Block size 118, difference 2.49789
-------------------------------------
-| Block size 119, difference 2.49813
-------------------------------------
-| Block size 120, difference 2.49932
-------------------------------------
-| Block size 121, difference 2.49578
-------------------------------------
-| Block size 122, difference 2.49394
-------------------------------------
-| Block size 123, difference 2.49349
-------------------------------------
-| Block size 124, difference 2.49277
-------------------------------------
-| Block size 125, difference 2.49157
-------------------------------------
-| Block size 126, difference 2.49286
-------------------------------------
-| Block size 127, difference 2.49132
-------------------------------------
-| Block size 128, difference 2.48872
-------------------------------------
-| Block size 129, difference 2.48943
-------------------------------------
-| Block size 130, difference 2.48858
-------------------------------------
-| Block size 131, difference 2.48938
-------------------------------------
-| Block size 132, difference 2.48806
-------------------------------------
-| Block size 133, difference 2.48616
-------------------------------------
-| Block size 134, difference 2.48549
-------------------------------------
-| Block size 135, difference 2.4832
-------------------------------------
-| Block size 136, difference 2.48175
-------------------------------------
-| Block size 137, difference 2.48145
-------------------------------------
-| Block size 138, difference 2.48152
-------------------------------------
-| Block size 139, difference 2.48099
-------------------------------------
-| Block size 140, difference 2.47916
-------------------------------------
-| Block size 141, difference 2.4782
-------------------------------------
-| Block size 142, difference 2.47645
-------------------------------------
-| Block size 143, difference 2.47764
-------------------------------------
-| Block size 144, difference 2.47507
-------------------------------------
-| Block size 145, difference 2.47314
-------------------------------------
-| Block size 146, difference 2.47319
-------------------------------------
-| Block size 147, difference 2.472
-------------------------------------
-| Block size 148, difference 2.47156
-------------------------------------
-| Block size 149, difference 2.46913
-------------------------------------
-| Block size 150, difference 2.46525
-------------------------------------
-| Block size 151, difference 2.4646
-------------------------------------
-| Block size 152, difference 2.46204
-------------------------------------
-| Block size 153, difference 2.45985
-------------------------------------
-| Block size 154, difference 2.46022
-------------------------------------
-| Block size 155, difference 2.45794
-------------------------------------
-| Block size 156, difference 2.45644
-------------------------------------
-| Block size 157, difference 2.45313
-------------------------------------
-| Block size 158, difference 2.44899
-------------------------------------
-| Block size 159, difference 2.44513
-------------------------------------
-| Block size 160, difference 2.44437
-------------------------------------
-| Block size 161, difference 2.44168
-------------------------------------
-| Block size 162, difference 2.44436
-------------------------------------
-| Block size 163, difference 2.44408
-------------------------------------
-| Block size 164, difference 2.44205
-------------------------------------
-| Block size 165, difference 2.43992
-------------------------------------
-| Block size 166, difference 2.43472
-------------------------------------
-| Block size 167, difference 2.43342
-------------------------------------
-| Block size 168, difference 2.43016
-------------------------------------
-| Block size 169, difference 2.42669
-------------------------------------
-| Block size 170, difference 2.42408
-------------------------------------
-| Block size 171, difference 2.41885
-------------------------------------
-| Block size 172, difference 2.41634
-------------------------------------
-| Block size 173, difference 2.41389
-------------------------------------
-| Block size 174, difference 2.40981
-------------------------------------
-| Block size 175, difference 2.4077
-------------------------------------
-| Block size 176, difference 2.40609
-------------------------------------
-| Block size 177, difference 2.40604
-------------------------------------
-| Block size 178, difference 2.40292
-------------------------------------
-| Block size 179, difference 2.40028
-------------------------------------
-| Block size 180, difference 2.39916
-------------------------------------
-| Block size 181, difference 2.39565
-------------------------------------
-| Block size 182, difference 2.39444
-------------------------------------
-| Block size 183, difference 2.3939
-------------------------------------
-| Block size 184, difference 2.39012
-------------------------------------
-| Block size 185, difference 2.38862
-------------------------------------
-| Block size 186, difference 2.38727
-------------------------------------
-| Block size 187, difference 2.38634
-------------------------------------
-| Block size 188, difference 2.3817
-------------------------------------
-| Block size 189, difference 2.37832
-------------------------------------
-| Block size 190, difference 2.37563
-------------------------------------
-| Block size 191, difference 2.37219
-------------------------------------
-| Block size 192, difference 2.36912
-------------------------------------
-| Block size 193, difference 2.36759
-------------------------------------
-| Block size 194, difference 2.36262
-------------------------------------
-| Block size 195, difference 2.35812
-------------------------------------
-| Block size 196, difference 2.35572
-------------------------------------
-| Block size 197, difference 2.3548
-------------------------------------
-| Block size 198, difference 2.35057
-------------------------------------
-| Block size 199, difference 2.34901
-------------------------------------
-| Block size 200, difference 2.34689
-------------------------------------
-| Block size 201, difference 2.34389
-------------------------------------
-| Block size 202, difference 2.34218
-------------------------------------
-| Block size 203, difference 2.33657
-------------------------------------
-| Block size 204, difference 2.33442
-------------------------------------
-| Block size 205, difference 2.33218
-------------------------------------
-| Block size 206, difference 2.33013
-------------------------------------
-| Block size 207, difference 2.32832
-------------------------------------
-| Block size 208, difference 2.32464
-------------------------------------
-| Block size 209, difference 2.323
-------------------------------------
-| Block size 210, difference 2.31906
-------------------------------------
-| Block size 211, difference 2.31623
-------------------------------------
-| Block size 212, difference 2.31399
-------------------------------------
-| Block size 213, difference 2.31031
-------------------------------------
-| Block size 214, difference 2.30746
-------------------------------------
-| Block size 215, difference 2.30534
-------------------------------------
-| Block size 216, difference 2.30187
-------------------------------------
-| Block size 217, difference 2.29813
-------------------------------------
-| Block size 218, difference 2.29489
-------------------------------------
-| Block size 219, difference 2.29145
-------------------------------------
-| Block size 220, difference 2.28757
-------------------------------------
-| Block size 221, difference 2.28104
-------------------------------------
-| Block size 222, difference 2.27755
-------------------------------------
-| Block size 223, difference 2.27295
-------------------------------------
-| Block size 224, difference 2.26966
-------------------------------------
-| Block size 225, difference 2.2665
-------------------------------------
-| Block size 226, difference 2.2622
-------------------------------------
-| Block size 227, difference 2.25668
-------------------------------------
-| Block size 228, difference 2.25124
-------------------------------------
-| Block size 229, difference 2.24679
-------------------------------------
-| Block size 230, difference 2.24217
-------------------------------------
-| Block size 231, difference 2.23794
-------------------------------------
-| Block size 232, difference 2.2324
-------------------------------------
-| Block size 233, difference 2.22821
-------------------------------------
-| Block size 234, difference 2.22478
-------------------------------------
-| Block size 235, difference 2.2212
-------------------------------------
-| Block size 236, difference 2.21634
-------------------------------------
-| Block size 237, difference 2.21205
-------------------------------------
-| Block size 238, difference 2.20694
-------------------------------------
-| Block size 239, difference 2.20299
-------------------------------------
-| Block size 240, difference 2.19668
-------------------------------------
-| Block size 241, difference 2.19214
-------------------------------------
-| Block size 242, difference 2.18641
-------------------------------------
-| Block size 243, difference 2.18169
-------------------------------------
-| Block size 244, difference 2.17899
-------------------------------------
-| Block size 245, difference 2.17323
-------------------------------------
-| Block size 246, difference 2.16732
-------------------------------------
-| Block size 247, difference 2.16111
-------------------------------------
-| Block size 248, difference 2.15554
-------------------------------------
-| Block size 249, difference 2.14963
-------------------------------------
-| Block size 250, difference 2.1436
-------------------------------------
-| Block size 251, difference 2.13752
-------------------------------------
-| Block size 252, difference 2.13134
-------------------------------------
-| Block size 253, difference 2.12692
-------------------------------------
-| Block size 254, difference 2.12253
-------------------------------------
-| Block size 255, difference 2.11741
-------------------------------------
-| Block size 256, difference 2.11155
-------------------------------------
-| Block size 257, difference 2.10506
-------------------------------------
-| Block size 258, difference 2.10038
-------------------------------------
-| Block size 259, difference 2.09463
-------------------------------------
-| Block size 260, difference 2.08978
-------------------------------------
-| Block size 261, difference 2.08493
-------------------------------------
-| Block size 262, difference 2.08003
-------------------------------------
-| Block size 263, difference 2.07522
-------------------------------------
-| Block size 264, difference 2.06972
-------------------------------------
-| Block size 265, difference 2.06476
-------------------------------------
-| Block size 266, difference 2.05898
-------------------------------------
-| Block size 267, difference 2.05354
-------------------------------------
-| Block size 268, difference 2.04826
-------------------------------------
-| Block size 269, difference 2.04196
-------------------------------------
-| Block size 270, difference 2.03691
-------------------------------------
-| Block size 271, difference 2.03193
-------------------------------------
-| Block size 272, difference 2.02602
-------------------------------------
-| Block size 273, difference 2.02007
-------------------------------------
-| Block size 274, difference 2.01425
-------------------------------------
-| Block size 275, difference 2.00853
-------------------------------------
-| Block size 276, difference 2.0035
-------------------------------------
-| Block size 277, difference 1.99805
-------------------------------------
-| Block size 278, difference 1.99174
-------------------------------------
-| Block size 279, difference 1.9863
-------------------------------------
-| Block size 280, difference 1.98007
-------------------------------------
-| Block size 281, difference 1.97393
-------------------------------------
-| Block size 282, difference 1.96822
-------------------------------------
-| Block size 283, difference 1.96214
-------------------------------------
-| Block size 284, difference 1.95601
-------------------------------------
-| Block size 285, difference 1.95055
-------------------------------------
-| Block size 286, difference 1.94529
-------------------------------------
-| Block size 287, difference 1.93987
-------------------------------------
-| Block size 288, difference 1.93451
-------------------------------------
-| Block size 289, difference 1.92882
-------------------------------------
-| Block size 290, difference 1.92326
-------------------------------------
-| Block size 291, difference 1.91783
-------------------------------------
-| Block size 292, difference 1.91186
-------------------------------------
-| Block size 293, difference 1.9064
-------------------------------------
-| Block size 294, difference 1.90037
-------------------------------------
-| Block size 295, difference 1.89479
-------------------------------------
-| Block size 296, difference 1.88928
-------------------------------------
-| Block size 297, difference 1.88319
-------------------------------------
-| Block size 298, difference 1.87749
-------------------------------------
-| Block size 299, difference 1.87176
-------------------------------------
-final difference 1.87176
+final difference 1.43051
