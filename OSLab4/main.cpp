@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 #include <fstream>
@@ -5,6 +6,7 @@
 #include <thread>
 #include <mutex>
 #include "bufferedChannel.h"
+
 
 std::vector<double> threadResults;
 std::vector<double> seqResults;
@@ -18,6 +20,7 @@ void blocksMul(const std::vector <std::vector <int>>&m1, const std::vector <std:
 			for (int k = 0; k < matrixSize; ++k)
 				resM[i][j] += m1[i][k] * m2[k][j];			
 }
+std::string str = "";
 
 void blocksMulUsingChannel(const std::vector <std::vector <int>>& m1, const std::vector <std::vector <int>>& m2, std::vector < std::vector <int>>& resM, std::pair<int, int>& pair, int matrixSize, int blockSize)
 {
@@ -62,9 +65,8 @@ void threadMul(const std::vector <std::vector <int>>& m1, const std::vector <std
 
 	channel.close();
 	for (int i = 0; i < countThreads; ++i)
-	{
 		threads.emplace_back(threadMulUsingChannel, std::ref(m1), std::ref(m2), std::ref(resM), matrixSize, blockSize, std::ref(channel));
-	}
+	
 	for (auto& thread: threads)
 		thread.join();
 }
