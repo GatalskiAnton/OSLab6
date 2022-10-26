@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <fstream>
@@ -9,18 +8,8 @@
 
 
 std::vector<double> threadResults;
-std::vector<double> seqResults;
 
 std::mutex g_lock;
-
-void blocksMul(const std::vector <std::vector <int>>&m1, const std::vector <std::vector <int>>&m2, std::vector < std::vector <int>>&resM, int blockI, int blockJ, int matrixSize, int blockSize)
-{
-	for (int i = blockI; i < std::min(blockI + blockSize,matrixSize); ++i)
-		for (int j = blockJ; j < std::min(blockJ + blockSize,matrixSize); ++j)
-			for (int k = 0; k < matrixSize; ++k)
-				resM[i][j] += m1[i][k] * m2[k][j];			
-}
-std::string str = "";
 
 void blocksMulUsingChannel(const std::vector <std::vector <int>>& m1, const std::vector <std::vector <int>>& m2, std::vector < std::vector <int>>& resM, std::pair<int, int>& pair, int matrixSize, int blockSize)
 {
@@ -34,12 +23,6 @@ void blocksMulUsingChannel(const std::vector <std::vector <int>>& m1, const std:
 			}
 }
 
-void defaultMul(const std::vector <std::vector <int>>& m1, const std::vector <std::vector <int>>& m2, std::vector < std::vector <int>>& resM, int matrixSize, int blockSize)
-{
-	for (int blockI = 0; blockI < matrixSize; blockI += blockSize)
-		for (int blockJ = 0; blockJ < matrixSize; blockJ += blockSize)
-			blocksMul(m1, m2, resM, blockI, blockJ, matrixSize, blockSize);
-}
 
 void threadMulUsingChannel(const std::vector <std::vector <int>>& m1, const std::vector <std::vector <int>>& m2, std::vector < std::vector <int>>& resM, int matrixSize, int blockSize, BufferedChannel < std::pair<int, int>>& channel)
 {
@@ -90,44 +73,6 @@ void getMatrix(std::vector< std::vector<int>> &m1, std::string file)
 	}
 }
 
-//void test(std::vector< std::vector<int>>& m1, std::vector< std::vector<int>>& m2, std::vector< std::vector<int>>& m3, int matrixSize)
-//{
-//	std::ofstream out("output.txt");
-//	auto startTimeThread =  std::chrono::high_resolution_clock::now();
-//	for (int i = 1; i < matrixSize; ++i)
-//	{
-//		threadMul(m1, m2, m3, matrixSize, i);
-//		auto tempTime = std::chrono::high_resolution_clock::now();
-//		std::chrono::duration<double> tempDuration = tempTime - startTimeThread;
-//		threadResults.push_back(tempDuration.count());
-//		m3 = std::vector<std::vector<int>>(matrixSize, std::vector<int>(matrixSize));
-//	}
-//	auto endTimeThread = std::chrono::high_resolution_clock::now();
-//	std::chrono::duration<double> durationThread = endTimeThread - startTimeThread;
-//	std::cout << durationThread.count() << '\n';
-//
-//	auto startTimeSeq = std::chrono::high_resolution_clock::now();
-//	for (int  i = 1; i < matrixSize; ++i)
-//	{
-//		defaultMul(m1, m2, m3, matrixSize, i);
-//		auto tempTime = std::chrono::high_resolution_clock::now();
-//		std::chrono::duration<double> tempDuration = tempTime - startTimeSeq;
-//		seqResults.push_back(tempDuration.count());
-//		m3 = std::vector<std::vector<int>>(matrixSize, std::vector<int>(matrixSize));
-//	}
-//	auto endTimeSeq = std::chrono::high_resolution_clock::now();
-//	std::chrono::duration<double> durationSeq = endTimeSeq - startTimeSeq;
-//	std::cout << durationSeq.count() << '\n';
-//	out << "------------------------------------\n";
-//	for (int i = 0; i < threadResults.size(); ++i)
-//	{
-//		out << "| Block size " << i+1 << ", difference " << seqResults[i] / threadResults[i]  << '\n';
-//		out << "------------------------------------\n";
-//	}
-//	out << "final difference " << durationSeq.count() /  durationThread.count() << '\n';
-//
-//}
-//
 void testChannel(std::vector< std::vector<int>>& m1, std::vector< std::vector<int>>& m2, std::vector< std::vector<int>>& m3, int matrixSize,int blockSize, int countThreads)
 {
 	std::ofstream out("outputChannel.txt");
@@ -157,6 +102,5 @@ int main()
 	std::vector< std::vector<int>> m3(matrixSize,std::vector<int>(matrixSize));
 	getMatrix(m1, "matrix5.txt");
 	getMatrix(m2, "matrix6.txt");
-	//test(m1, m2, m3, matrixSize);
 	testChannel(m1, m2, m3, matrixSize, 10,40);
 }
