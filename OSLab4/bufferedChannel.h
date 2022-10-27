@@ -27,13 +27,12 @@ public:
 
 	std::pair<T, bool> recv()
 	{
-
+		std::unique_lock<std::mutex> locker(mutex);
+		
 		if (isClose && channel_.empty())
 		{
 			return std::make_pair(T(), false);
 		}
-
-		std::unique_lock<std::mutex> locker(mutex);
 
 		cv.wait(locker, [this] {
 			return	!channel_.empty();
