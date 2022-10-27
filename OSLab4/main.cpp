@@ -8,7 +8,6 @@
 
 
 std::vector<double> threadResults;
-
 std::mutex g_lock;
 
 void blocksMulUsingChannel(const std::vector <std::vector <int>>& m1, const std::vector <std::vector <int>>& m2, std::vector < std::vector <int>>& resM, std::pair<int, int>& pair, int matrixSize, int blockSize)

@@ -1,79 +1,79 @@
 ------------------------------------
-| Count of thread: 1, time: 0.174186
+| Count of thread: 1, time: 0.166208
 ------------------------------------
-| Count of thread: 2, time: 0.193708
+| Count of thread: 2, time: 0.20551
 ------------------------------------
-| Count of thread: 3, time: 0.219055
+| Count of thread: 3, time: 0.230938
 ------------------------------------
-| Count of thread: 4, time: 0.237032
+| Count of thread: 4, time: 0.276266
 ------------------------------------
-| Count of thread: 5, time: 0.260117
+| Count of thread: 5, time: 0.340112
 ------------------------------------
-| Count of thread: 6, time: 0.28244
+| Count of thread: 6, time: 0.362807
 ------------------------------------
-| Count of thread: 7, time: 0.271772
+| Count of thread: 7, time: 0.333544
 ------------------------------------
-| Count of thread: 8, time: 0.271706
+| Count of thread: 8, time: 0.339946
 ------------------------------------
-| Count of thread: 9, time: 0.259632
+| Count of thread: 9, time: 0.334106
 ------------------------------------
-| Count of thread: 10, time: 0.245918
+| Count of thread: 10, time: 0.375708
 ------------------------------------
-| Count of thread: 11, time: 0.263877
+| Count of thread: 11, time: 0.33651
 ------------------------------------
-| Count of thread: 12, time: 0.264499
+| Count of thread: 12, time: 0.36189
 ------------------------------------
-| Count of thread: 13, time: 0.280484
+| Count of thread: 13, time: 0.333365
 ------------------------------------
-| Count of thread: 14, time: 0.26345
+| Count of thread: 14, time: 0.335907
 ------------------------------------
-| Count of thread: 15, time: 0.287268
+| Count of thread: 15, time: 0.364366
 ------------------------------------
-| Count of thread: 16, time: 0.279198
+| Count of thread: 16, time: 0.340355
 ------------------------------------
-| Count of thread: 17, time: 0.283398
+| Count of thread: 17, time: 0.345081
 ------------------------------------
-| Count of thread: 18, time: 0.285102
+| Count of thread: 18, time: 0.337828
 ------------------------------------
-| Count of thread: 19, time: 0.272497
+| Count of thread: 19, time: 0.342969
 ------------------------------------
-| Count of thread: 20, time: 0.297615
+| Count of thread: 20, time: 0.339063
 ------------------------------------
-| Count of thread: 21, time: 0.284658
+| Count of thread: 21, time: 0.336816
 ------------------------------------
-| Count of thread: 22, time: 0.282103
+| Count of thread: 22, time: 0.359165
 ------------------------------------
-| Count of thread: 23, time: 0.27318
+| Count of thread: 23, time: 0.364856
 ------------------------------------
-| Count of thread: 24, time: 0.28064
+| Count of thread: 24, time: 0.338919
 ------------------------------------
-| Count of thread: 25, time: 0.286291
+| Count of thread: 25, time: 0.346461
 ------------------------------------
-| Count of thread: 26, time: 0.292919
+| Count of thread: 26, time: 0.340198
 ------------------------------------
-| Count of thread: 27, time: 0.287117
+| Count of thread: 27, time: 0.346443
 ------------------------------------
-| Count of thread: 28, time: 0.285468
+| Count of thread: 28, time: 0.337424
 ------------------------------------
-| Count of thread: 29, time: 0.286809
+| Count of thread: 29, time: 0.332723
 ------------------------------------
-| Count of thread: 30, time: 0.306249
+| Count of thread: 30, time: 0.341752
 ------------------------------------
-| Count of thread: 31, time: 0.285844
+| Count of thread: 31, time: 0.337235
 ------------------------------------
-| Count of thread: 32, time: 0.299114
+| Count of thread: 32, time: 0.359109
 ------------------------------------
-| Count of thread: 33, time: 0.278802
+| Count of thread: 33, time: 0.334337
 ------------------------------------
-| Count of thread: 34, time: 0.284935
+| Count of thread: 34, time: 0.336852
 ------------------------------------
-| Count of thread: 35, time: 0.298115
+| Count of thread: 35, time: 0.324857
 ------------------------------------
-| Count of thread: 36, time: 0.284098
+| Count of thread: 36, time: 0.337038
 ------------------------------------
-| Count of thread: 37, time: 0.303242
+| Count of thread: 37, time: 0.342355
 ------------------------------------
-| Count of thread: 38, time: 0.285367
+| Count of thread: 38, time: 0.344909
 ------------------------------------
-| Count of thread: 39, time: 0.283747
+| Count of thread: 39, time: 0.333407
 ------------------------------------
